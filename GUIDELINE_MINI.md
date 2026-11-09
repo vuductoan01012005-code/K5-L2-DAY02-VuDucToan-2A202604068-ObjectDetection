@@ -13,10 +13,10 @@
 
 ## Quy tắc chung
 
-- Box bám sát vật thể nghĩa là: ...
-- Vật thể bị che khuất: ...
-- Vật thể bị cắt bởi rìa ảnh: ...
-- Vật thể rất nhỏ/mơ hồ: ...
+- Box bám sát vật thể nghĩa là:Bounding box phải bao quanh toàn bộ phần nhìn thấy của vật thể, tiếp xúc sát biên ngoài cùng của xe nhưng không chứa nhiều nền không cần thiết.
+- Vật thể bị che khuất: Vẫn gán nhãn nếu có thể nhận diện chắc chắn lớp đối tượng. Box bao quanh toàn bộ phần còn nhìn thấy được của vật thể.
+- Vật thể bị cắt bởi rìa ảnh: Vẫn gán nhãn nếu có thể xác định loại xe. Box kéo đến mép ảnh và phủ toàn bộ phần xuất hiện trong ảnh.
+- Vật thể rất nhỏ/mơ hồ: Không gán nhãn nếu không thể xác định chắc chắn class theo schema. Ưu tiên tính nhất quán hơn là đoán.
 
 ## Ghi lại quyết định cho ít nhất ba ca mơ hồ
 

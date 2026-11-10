@@ -20,8 +20,8 @@
 
 ## Ghi lại quyết định cho ít nhất ba ca mơ hồ
 
-| Ảnh         | Tình huống | Quyết định cuối | Lý do theo schema |
-| ----------- | ---------- | --------------- | ----------------- |
-| `drive_...` |            |                 |                   |
-| `drive_...` |            |                 |                   |
-| `drive_...` |            |                 |                   |
+| Ảnh              | Tình huống                                                               | Quyết định cuối                                                | Lý do theo schema                                                                                            |
+| ---------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| `drive_0025.jpg` | Xe có kích thước lớn, hình dáng giống xe tải nhỏ nhưng phần thân xe kín. | Gán nhãn van.                                                  | Xe có khoang chở hàng dạng kín, kích thước và cấu trúc phù hợp với class van, không phải truck.              |
+| `drive_007.jpg`  | Xe khách ở phía xa, bị che khuất một phần bởi phương tiện khác.          | Gán nhãn bus nếu vẫn đủ đặc điểm nhận diện.                    | Schema phân loại theo loại phương tiện, không phụ thuộc vào khoảng cách. Chỉ gán khi có đủ căn cứ nhận diện. |
+| `drive_0015.jpg` | Xe bán tải có phần đầu giống ô tô nhưng phía sau có thùng chở hàng.      | Gán nhãn truck nếu cấu trúc phù hợp quy ước truck của dataset. | Phân loại dựa trên cấu trúc và chức năng phương tiện, không chỉ dựa vào hình dáng phần đầu xe.               |
